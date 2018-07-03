@@ -1,8 +1,13 @@
 
-div {
+table {
+
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+	width: 50%;
+
+    
+
 }
 
 .custom-input {
@@ -14,15 +19,7 @@ div {
     border-radius: 4px;
     box-sizing: border-box;
 }
-.custom-input1 {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+
 input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -87,6 +84,10 @@ a:link {
   -ms-flex: 20%; /* IE10 */
   flex: 20%;
 }
+.col-30 {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+}
 
 .col-40 {
   -ms-flex: auto; /* IE10 */
@@ -110,10 +111,15 @@ a:link {
 
 .col-25,
 .col-10,
+.col-30,
 .col-80,
 .col-50,
 .col-75 {
   padding: 0 16px;
+}
+
+td.first {
+   width: 100%;
 }
 label {
   margin-bottom: 10px;
@@ -188,4 +194,15 @@ input:checked + .slider:before {
 input:checked + .slider:after
 {  
   content:'ON';
+}
+
+/*---css for file---*/
+.image-upload > input
+{
+    display: none;
+    
+}
+.file-input{
+padding: 8px 4px 1px 10px;
+
 }
